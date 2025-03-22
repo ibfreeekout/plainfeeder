@@ -26,6 +26,18 @@ I'm not an expert developer by any stretch of the imagination. I know Python fai
 
 Once I have a better understanding of the overall design of these various systems, I'll be sure to include a little write up of how things are laid out and the reasoning for that. I will again preface with this - I am not a developer by trade, but I wanted a project to work on and I've been really enjoying finding RSS feeds lately, so figured this would be a fun one to start with!
 
+## Site Layout
+
+This is going to be a massive work in progress while I flesh out the best way for me to handle this. For the time being, I generally see a layout looking like this (from the view of this repo):
+
+* /public/
+  * Anything contained in here is available to be rendered to users
+* /includes/
+  * Any libraries that I have written or imported for use that are not intended to be accessed directly
+* /private/
+  * Files used to handle server-side processes only
+  * Initially will be used for the logic to retrieve feed data, since this will not require any user-facing interaction
+
 ## Contact Me
 
 If you'd like to reach out to me, you can either email at the address in my Github profile or at [chris@plainfeeder.com](mailto:chris@plainfeeder.com)
