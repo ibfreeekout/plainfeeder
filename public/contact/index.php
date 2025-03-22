@@ -1,8 +1,6 @@
 <html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Plain Feeder</title>
+        <?php include("../../includes/head.php"); ?>
     </head>
     <body>
         <h1>Plain Feeder Contact</h1>
