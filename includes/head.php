@@ -6,8 +6,8 @@ if (!isset($title)) {
 }
 
 # Get the SHA1 hash of the styles file to generate a unique cache busting query string
-$fingerprint = sha1_file("/var/www/plainfeeder.com/public/assets/css/styles.min.css");
-$css_link = "/assets/css/styles.min.css?v=" . $fingerprint;
+$fingerprint = sha1_file("/var/www/plainfeeder.com/public/assets/css/simple.min.css");
+$css_link = "/assets/css/simple.min.css?v=" . $fingerprint;
 
 ?>
 <meta charset="UTF-8" />
