@@ -37,6 +37,7 @@ This is going to be a massive work in progress while I flesh out the best way fo
 * /private/
   * Files used to handle server-side processes only
   * Initially will be used for the logic to retrieve feed data, since this will not require any user-facing interaction
+  * This is a sample update
 
 ## Contact Me
 
